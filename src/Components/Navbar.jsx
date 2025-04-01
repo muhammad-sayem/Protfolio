@@ -12,7 +12,7 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><a href='#' className=' font-bold text-lg nav-link'>Home</a></li>
+                            <li><a href='/' className=' font-bold text-lg nav-link'>Home</a></li>
                             <li><a href='#about' className=' font-bold text-lg nav-link'>About</a></li>
                             <li><a href='#skills' className=' font-bold text-lg nav-link'>Skills</a></li>
                             <li><a href='#projects' className=' font-bold text-lg nav-link'>Projects</a></li>
@@ -31,7 +31,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="https://drive.google.com/file/d/1l4EzT3jGcvFnbqi5IYViwtQvhDy447nA/view?usp=sharing" target='_blank'> <button className='btn bg-[#A6C8FF] text-[#0f4efc] border-2 border-[#0f4efc] text-2xl px-6 py-4'> Resume </button> </a>
+                    <a href="https://drive.google.com/file/d/1l4EzT3jGcvFnbqi5IYViwtQvhDy447nA/view?usp=sharing" target='_blank'> <button className='btn bg-[#A6C8FF] text-[#0f4efc] border-2 border-[#0f4efc] dark:border-none dark:bg-[#00BFFF] dark:text-black text-2xl px-9 py-4'> Resume </button> </a>
                 </div>
             </div>
         </div>

@@ -12,11 +12,11 @@ import cppImage from "../assets/Logos/cpp.png";
 
 const Skills = () => {
     return (
-        <div className='text-center shadow-[0px_4px_12px_rgba(0,0,0,0.4)] rounded-xl px-12 py-8 mb-16'>
+        <div className='text-center shadow-[4px_4px_10px_rgba(0,0,0,0.35)] dark:shadow-[1px_1px_8px_#0BBFFF] rounded-xl px-12 py-8 mb-16'>
             <div className='text-center' data-aos="fade-down"
                 data-aos-duration="2000">
-                <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-[#0F4EFC] inline-block">Skills and Technologies</h2>
-                <div className="h-1 w-28 bg-[#0F4EFC] mx-auto mt-1 mb-6"></div>
+                <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-[#0F4EFC] dark:text-[#0BBFFF] inline-block">Skills and Technologies</h2>
+                <div className="h-1 w-28 bg-[#0F4EFC] dark:bg-[#0BBFFF] mx-auto mt-1 mb-6"></div>
             </div>
 
             <div className='grid grid-cols-3 md:grid-cols-5 lg:grid-cols-10' data-aos="fade-up" data-aos-duration="2000">
