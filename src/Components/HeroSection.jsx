@@ -30,7 +30,7 @@ const HeroSection = () => {
                 </div>
 
                 <div>
-                    <button className='btn bg-[#A6C8FF] text-[#0f4efc] border-2 border-[#0f4efc] text-2xl px-10 py-6'> Resume </button>
+                    <a href="https://drive.google.com/file/d/1l4EzT3jGcvFnbqi5IYViwtQvhDy447nA/view?usp=sharing" target='_blank'> <button className='btn bg-[#A6C8FF] text-[#0f4efc] border-2 border-[#0f4efc] text-2xl px-9 py-4'> Resume </button> </a>
                 </div>
 
             </div>

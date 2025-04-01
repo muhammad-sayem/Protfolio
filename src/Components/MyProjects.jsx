@@ -14,7 +14,7 @@ const MyProjects = () => {
 
             <div>
                 {/* Project 1 */}
-                <div className='lg:flex gap-8 shadow-[0px_4px_12px_rgba(0,0,0,0.4)] rounded-xl mb-12'>
+                <div className='lg:flex gap-4 shadow-[0px_4px_12px_rgba(0,0,0,0.4)] rounded-xl mb-12'>
 
                     <div className='w-full lg:w-1/2' data-aos="fade-right"
                         data-aos-duration="2000">
@@ -23,7 +23,7 @@ const MyProjects = () => {
 
                     <div className='w-full lg:w-1/2 p-10' data-aos="fade-left"
                         data-aos-duration="2000">
-                        <h3 className='text-[#0F4EFC] text-3xl font-bold mb-4'> Web Horizon </h3>
+                        <h3 className='text-[#0F4EFC] text-3xl font-bold mb-2'> Web Horizon </h3>
 
                         <p className='text-lg mb-6'> Web Horizon is a platform where users can discover and share websites. It allows users to submit new websites, like existing ones, and post reviews. The platform includes user authentication, roles for normal users, moderators, and admins, along with a website moderation system to ensure quality content. Additionally, a payment system is integrated for subscriptions.The platform fosters a community-driven approach, helping users find and promote high-quality websites efficiently.</p>
 
@@ -59,7 +59,7 @@ const MyProjects = () => {
 
                     <div className='w-full lg:w-1/2 p-10' data-aos="fade-left"
                         data-aos-duration="2000">
-                        <h3 className='text-[#0F4EFC] text-3xl font-bold mb-4'> Artifacts Atlas </h3>
+                        <h3 className='text-[#0F4EFC] text-3xl font-bold mb-2'> Artifacts Atlas </h3>
 
                         <p className='text-lg mb-6'> Artifacts Atlas involves creating a web application for tracking historical artifacts. The application will allow users to browse artifacts, view details, and add their own entries. The system also allows users to like artifacts and keep track of their own contributions. The application provides a user-friendly interface for managing and displaying information about various historical items.
                         </p>
@@ -97,7 +97,7 @@ const MyProjects = () => {
 
                     <div className='w-full lg:w-1/2 p-10' data-aos="fade-left"
                         data-aos-duration="2000">
-                        <h3 className='text-[#0F4EFC] text-3xl font-bold mb-4'> Visa Navigator Portal </h3>
+                        <h3 className='text-[#0F4EFC] text-3xl font-bold mb-2'> Visa Navigator Portal </h3>
 
                         <p className='text-lg mb-6'> Visa Navigator Portal is a web application to simplify the process of checking visa requirements, applying for visas online, and tracking applications. This project includes a dynamic user interface, robust functionality, and seamless user experience.
                         </p>
