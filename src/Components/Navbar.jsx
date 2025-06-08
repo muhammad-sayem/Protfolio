@@ -31,7 +31,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="https://drive.google.com/file/d/1l4EzT3jGcvFnbqi5IYViwtQvhDy447nA/view?usp=sharing" target='_blank'> <button className='btn bg-[#A6C8FF] text-[#0f4efc] border-2 border-[#0f4efc] dark:border-none dark:bg-[#00BFFF] dark:text-black text-2xl px-9 py-4'> Resume </button> </a>
+                    <a href="https://drive.google.com/file/d/1enFs4tkNOe4JfzuSE14owphky_bDURpy/view?usp=drive_link" target='_blank'> <button className='btn bg-[#A6C8FF] text-[#0f4efc] border-2 border-[#0f4efc] darkDamborder-none darkDambg-[#00BFFF] darkDamtext-black text-2xl px-9 py-4'> Resume </button> </a>
                 </div>
             </div>
         </div>
