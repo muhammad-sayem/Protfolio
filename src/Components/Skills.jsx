@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from "react-slick";
 import htmlImage from "../assets/Logos/html.png";
 import cssImage from "../assets/Logos/css.png";
 import tailwindImage from "../assets/Logos/tailwindcss.png";
@@ -8,28 +9,90 @@ import nodejsImage from "../assets/Logos/nodejs.png";
 import expressjsImage from "../assets/Logos/expressjs.png";
 import mongodbImage from "../assets/Logos/mongodb.png";
 import firebaseImage from "../assets/Logos/firebase.png";
-import cppImage from "../assets/Logos/cpp.png";
 
 const Skills = () => {
+    const singleSkillStyle = 'border border-[#8245EC]/60 rounded-lg flex flex-col items-center py-2 transform transition-transform duration-300 hover:scale-90';
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 3000,
+        autoplaySpeed: 0,
+        cssEase: "linear"
+    };
+
     return (
-        <div className='text-center shadow-[4px_4px_10px_rgba(0,0,0,0.35)] darkDamshadow-[1px_1px_8px_#0BBFFF] rounded-xl px-12 py-8 mb-16'>
+        <div className='mb-16'>
             <div className='text-center' data-aos="fade-down"
                 data-aos-duration="2000">
-                <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-[#0F4EFC] darkDamtext-[#0BBFFF] inline-block">Skills and Technologies</h2>
-                <div className="h-1 w-28 bg-[#0F4EFC] darkDambg-[#0BBFFF] mx-auto mt-1 mb-6"></div>
+                <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-white inline-block"> Skills & Technologies </h2>
+                <div className="h-1 w-64 bg-[#8245EC] mx-auto mt-4 mb-6"></div>
             </div>
 
-            <div className='grid grid-cols-3 md:grid-cols-5 lg:grid-cols-10' data-aos="fade-up" data-aos-duration="2000">
-                <img src={htmlImage} className='w-28 transition-transform duration-300 hover:scale-150' alt="" />
-                <img src={cssImage} className='w-28 transition-transform duration-300 hover:scale-150' alt="" />
-                <img src={tailwindImage} className='w-28 transition-transform duration-300 hover:scale-150' alt="" />
-                <img src={javascriptImage} className='w-28 transition-transform duration-300 hover:scale-150' alt="" />
-                <img src={reactImage} className='w-28 transition-transform duration-300 hover:scale-150' alt="" />
-                <img src={nodejsImage} className='w-28 transition-transform duration-300 hover:scale-150' alt="" />
-                <img src={expressjsImage} className='w-28 transition-transform duration-300 hover:scale-150' alt="" />
-                <img src={mongodbImage} className='w-28 transition-transform duration-300 hover:scale-150' alt="" />
-                <img src={firebaseImage} className='w-28 transition-transform duration-300 hover:scale-150' alt="" />
-                <img src={cppImage} className='w-28 transition-transform duration-300 hover:scale-150' alt="" />
+            <div className="slider-container">
+                <Slider {...settings}>
+                    <div className='px-2'>
+                        <div className={singleSkillStyle}>
+                            <img src={htmlImage} className='w-28 h-28 mb-2' alt="" />
+                            <p className='text-xl font-bold'> HTML </p>
+                        </div>
+                    </div>
+
+                    <div className='px-2'>
+                        <div className={singleSkillStyle}>
+                            <img src={cssImage} className='w-28 h-28 mb-2' alt="" />
+                            <p className='text-xl font-bold'> CSS </p>
+                        </div>
+                    </div>
+
+                    <div className='px-2'>
+                        <div className={singleSkillStyle}>
+                           <img src={tailwindImage} className='w-28 h-28 mb-2' alt="" />
+                            <p className='text-xl font-bold'> Tailwind CSS </p>
+                        </div>
+                    </div>
+                    <div className='px-2'>
+                        <div className={singleSkillStyle}>
+                           <img src={javascriptImage} className='w-28 h-28 mb-2' alt="" />
+                            <p className='text-xl font-bold'> JavaScript </p>
+                        </div>
+                    </div>
+                    <div className='px-2'>
+                        <div className={singleSkillStyle}>
+                            <img src={reactImage} className='w-28 h-28 mb-2' alt="" />
+                            <p className='text-xl font-bold'> React </p>
+                        </div>
+                    </div>
+                    <div className='px-2'>
+                        <div className={singleSkillStyle}>
+                           <img src={nodejsImage} className='w-28 h-28 mb-2' alt="" />
+                            <p className='text-xl font-bold'> Node </p>
+                        </div>
+                    </div>
+                    <div className='px-2'>
+                        <div className={singleSkillStyle}>
+                           <img src={expressjsImage} className='w-28 h-28 mb-2' alt="" />
+                            <p className='text-xl font-bold'> Express </p>
+                        </div>
+                    </div>
+
+                    <div className='px-2'>
+                        <div className={singleSkillStyle}>
+                           <img src={firebaseImage} className='w-28 h-28 mb-2' alt="" />
+                            <p className='text-xl font-bold'> Firebase </p>
+                        </div>
+                    </div>
+
+                    <div className='px-2'>
+                        <div className={singleSkillStyle}>
+                           <img src={mongodbImage} className='w-28 h-28 mb-2' alt="" />
+                            <p className='text-xl font-bold'> MongoDB </p>
+                        </div>
+                    </div>
+                </Slider>
             </div>
         </div>
     );

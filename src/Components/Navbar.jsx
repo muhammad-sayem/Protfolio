@@ -1,9 +1,7 @@
-import React from 'react';
-
 const Navbar = () => {
     return (
-        <div>
-            <div className="navbar fixed top-0 left-0 z-50 bg-base-100 px-4 md:px-8 lg:px-16 w-full overflow-hidden">
+        <div className=''>
+            <div className="navbar fixed top-0 left-0 z-50 bg-transparent backdrop-blur-lg px-4 md:px-8 lg:px-32 w-full overflow-hidden">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -31,7 +29,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="https://drive.google.com/file/d/1enFs4tkNOe4JfzuSE14owphky_bDURpy/view?usp=drive_link" target='_blank'> <button className='btn bg-[#A6C8FF] text-[#0f4efc] border-2 border-[#0f4efc] darkDamborder-none darkDambg-[#00BFFF] darkDamtext-black text-2xl px-9 py-4'> Resume </button> </a>
+                    <a href="https://drive.google.com/file/d/1enFs4tkNOe4JfzuSE14owphky_bDURpy/view?usp=drive_link" target='_blank'> <button className='btn bg-gradient-to-r from-[#8245EC] to-[#A654F6] border-2 border-[#8245EC] px-9 py-4 rounded-full text-lg font-bold text-white'> Resume </button> </a>
                 </div>
             </div>
         </div>

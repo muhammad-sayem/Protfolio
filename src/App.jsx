@@ -5,11 +5,12 @@ import HeroSection from "./Components/HeroSection"
 import MyProjects from "./Components/MyProjects"
 import Navbar from "./Components/Navbar"
 import Skills from "./Components/Skills"
+import ToolsAndLanguages from "./Components/ToolsAndLanguages"
 
 function App() {
 
   return (
-    <div className="w-11/12 mx-auto">
+    <div className="w-10/12 mx-auto">
       <div>
         <Navbar></Navbar>
       </div>
@@ -18,12 +19,16 @@ function App() {
         <HeroSection></HeroSection>
       </div>
 
-      <div id="about">
+      {/* <div id="about">
         <About></About>
-      </div>
+      </div> */}
 
       <div id="skills">
         <Skills></Skills>
+      </div>
+
+      <div>
+        <ToolsAndLanguages></ToolsAndLanguages>
       </div>
 
       <div>
