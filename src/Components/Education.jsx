@@ -5,6 +5,11 @@ import acpsLogo from "../assets/Logos/acps logo.jpg";
 const Education = () => {
   return (
     <div className='shadow-[4px_4px_10px_rgba(0,0,0,0.35)] rounded-xl px-12 py-8 mb-16'>
+      <div className='text-center' data-aos="fade-down"
+        data-aos-duration="2000">
+        <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-white inline-block"> Education </h2>
+        <div className="h-1 w-36 bg-[#8245EC] mx-auto mt-4 mb-6"></div>
+      </div>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         {/* 1 */}
         <li>
