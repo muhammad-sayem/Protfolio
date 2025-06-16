@@ -1,6 +1,7 @@
 import About from "./Components/About"
 import Contact from "./Components/Contact"
 import Education from "./Components/Education"
+import Footer from "./Components/Footer"
 import HeroSection from "./Components/HeroSection"
 import MyProjects from "./Components/MyProjects"
 import Navbar from "./Components/Navbar"
@@ -27,11 +28,11 @@ function App() {
         <Skills></Skills>
       </div>
 
-      <div>
+      <div id="ToolsAndLanguages">
         <ToolsAndLanguages></ToolsAndLanguages>
       </div>
 
-      <div>
+      <div id="education">
         <Education></Education>
       </div>
 
@@ -41,6 +42,10 @@ function App() {
 
       <div id="contact">
         <Contact></Contact>
+      </div>
+
+      <div>
+        <Footer></Footer>
       </div>
 
       

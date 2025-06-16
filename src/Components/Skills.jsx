@@ -1,4 +1,3 @@
-import React from 'react';
 import Slider from "react-slick";
 import htmlImage from "../assets/Logos/html.png";
 import cssImage from "../assets/Logos/css.png";

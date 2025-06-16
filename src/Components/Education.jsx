@@ -4,7 +4,7 @@ import acpsLogo from "../assets/Logos/acps logo.jpg";
 
 const Education = () => {
   return (
-    <div className='shadow-[4px_4px_10px_rgba(0,0,0,0.35)] rounded-xl px-12 py-8 mb-16'>
+    <div className='rounded-xl px-12 py-8 mb-16'>
       <div className='text-center' data-aos="fade-down"
         data-aos-duration="2000">
         <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-white inline-block"> Education </h2>
@@ -29,7 +29,7 @@ const Education = () => {
               />
             </svg>
           </div>
-          <div className="timeline-start mb-10 md:text-end border border-[#8245EC]/60 rounded-xl px-8 py-4" data-aos="fade-right"
+          <div className="timeline-start mb-10 md:text-end border border-[#8245EC]/60 rounded-xl px-8 py-4 hover:shadow-[0_0_10px_3px_rgba(165,84,246,0.2)] transform transition-transform duration-700 hover:scale-[1.02]" data-aos="fade-right"
             data-aos-duration="2000">
             <time className="font-bold text-xl text-[#8245EC]"> 2022-2026 (Expected) </time>
             <div>
@@ -70,7 +70,7 @@ const Education = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end mb-10 md:text-end border border-[#8245EC]/60 rounded-xl px-8 py-4" data-aos="fade-left" data-aos-duration="2000">
+          <div className="timeline-end mb-10 md:text-end border border-[#8245EC]/60 rounded-xl px-8 py-4 hover:shadow-[0_0_10px_3px_rgba(165,84,246,0.2)] transform transition-all duration-700 hover:scale-[1.02]" data-aos="fade-left" data-aos-duration="2000">
             <time className="font-bold text-xl text-[#8245EC]"> 2019-2021 </time>
             <div>
               <div className="flex items-center justify-between">
@@ -110,7 +110,7 @@ const Education = () => {
               />
             </svg>
           </div>
-          <div className="timeline-start mb-10 md:text-end border border-[#8245EC]/60 rounded-xl px-8 py-4" data-aos="fade-right"
+          <div className="timeline-start mb-10 md:text-end border border-[#8245EC]/60 rounded-xl px-8 py-4 hover:shadow-[0_0_10px_3px_rgba(165,84,246,0.2)] transform transition-all duration-700 hover:scale-[1.02]" data-aos="fade-right"
             data-aos-duration="2000">
             <time className="font-bold text-xl text-[#8245EC]"> 2010 - 2019 </time>
             <div>
