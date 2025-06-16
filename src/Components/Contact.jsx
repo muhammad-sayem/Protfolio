@@ -12,7 +12,7 @@ const Contact = () => {
                 <div className="h-1 w-36 bg-[#8245EC] mx-auto mt-2 mb-6"></div>
             </div>
 
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-8 mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto'>
                 <div className='text-center border border-[#8245EC]/60 py-4 rounded-xl' data-aos="fade-right"
                     data-aos-duration="2000">
                     <div className='flex justify-center'>
@@ -28,7 +28,7 @@ const Contact = () => {
                         <img src={gmailImage} className='w-18' alt="" />
                     </div>
                     <h2 className='text-lg font-bold'> Email: </h2>
-                    <p className='text-xl'>shahrulislamsayem@gmail.com</p>
+                    <p className='text-xl break-words px-2'>shahrulislamsayem@gmail.com</p>
                 </div>
 
                 <div className='text-center border border-[#8245EC]/60 py-4 rounded-xl' data-aos="fade-left"
